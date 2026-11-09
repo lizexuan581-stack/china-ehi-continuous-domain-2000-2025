@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 import tempfile
 import time
+import subprocess
 import urllib.request
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor,as_completed
@@ -81,27 +82,26 @@ def transfer_one(item):
         # Official Zenodo large-file bucket API initializes and commits the
         # draft entry itself. A small checksum-file probe verified this route.
         url=BUCKET+'/'+name
-        parsed=urlparse(url)
-        connection=http.client.HTTPSConnection(parsed.hostname,timeout=600)
-        try:
-            connection.putrequest('PUT',parsed.path)
-            connection.putheader('Authorization','Bearer '+TOKEN)
-            connection.putheader('Content-Type','application/octet-stream')
-            connection.putheader('Content-Length',str(size))
-            connection.putheader('User-Agent','ChinaEHI-ArchivalTransfer/1.0')
-            connection.endheaders()
-            transferred=0;reported=0
-            with path.open('rb') as source:
-                while chunk:=source.read(1024*1024):
-                    connection.send(chunk);transferred+=len(chunk)
-                    if transferred-reported>=64*1024*1024:
-                        reported=transferred
-                        print('Upload progress:',name,transferred,'of',size,flush=True)
-            response=connection.getresponse();body=response.read()
-            assert 200<=response.status<300,(name,response.status)
-            uploaded=json.loads(body)
-            assert uploaded['size']==e['bytes'] and uploaded['checksum'].removeprefix('md5:').zfill(32)==e['md5'].zfill(32),name
-        finally:connection.close()
+        # Supply the authorization header on stdin, never in argv or a file.
+        # Curl negotiates HTTP/2 when available and retries genuinely stalled
+        # connections, instead of indefinitely accepting tiny write advances.
+        response_path=Path(tmp)/'upload_response.json'
+        options={'url':url,'request':'PUT','upload-file':str(path),
+                 'output':str(response_path),'connect-timeout':'30',
+                 'max-time':'1800','speed-limit':'16384','speed-time':'120',
+                 'retry':'3','retry-delay':'5',
+                 'write-out':'%{http_code} %{speed_upload} %{time_total}'}
+        config='\n'.join(k+' = '+json.dumps(v) for k,v in options.items())
+        config+='\nheader = '+json.dumps('Authorization: Bearer '+TOKEN)
+        config+='\nheader = "Content-Type: application/octet-stream"'
+        config+='\nuser-agent = "ChinaEHI-ArchivalTransfer/1.0"\nsilent\nshow-error\nretry-all-errors\n'
+        result=subprocess.run(['curl','--config','-'],input=config,text=True,capture_output=True,timeout=7500)
+        if result.returncode:
+            raise RuntimeError('Curl upload failed for '+name+' (exit '+str(result.returncode)+'): '+result.stderr[-500:])
+        status=int(result.stdout.split()[0]);assert 200<=status<300,(name,status)
+        uploaded=json.loads(response_path.read_text())
+        assert uploaded['size']==e['bytes'] and uploaded['checksum'].removeprefix('md5:').zfill(32)==e['md5'].zfill(32),name
+        print('Transfer receipt:',name,result.stdout.strip(),flush=True)
         assert match(files()[name],e),name
         print('Uploaded and verified:',name,'seconds:',round(time.monotonic()-begin,1),flush=True)
 
