@@ -13,6 +13,7 @@ import tempfile
 import time
 import urllib.request
 import urllib.error
+from concurrent.futures import ThreadPoolExecutor,as_completed
 from urllib.parse import urlparse
 
 BASE='https://zenodo.org/api/records/24073205/draft/files'
@@ -48,12 +49,13 @@ for name,f in remote.items():
         api('DELETE',f['links']['self'])
         print('Removed incomplete slot:',name,flush=True)
 
-for name,e in EXPECTED.items():
+def transfer_one(item):
+    name,e=item
     remote=files()
     if name in remote:
         assert match(remote[name],e),name
         print('Verified existing:',name,flush=True)
-        continue
+        return
     assert e['source_url'].startswith('https://github.com/lizexuan581-stack/china-ehi-continuous-domain-2000-2025/releases/download/v1.0.0/')
     begin=time.monotonic()
     with tempfile.TemporaryDirectory() as tmp:
@@ -85,8 +87,13 @@ for name,e in EXPECTED.items():
             connection.putheader('Content-Length',str(size))
             connection.putheader('User-Agent','ChinaEHI-ArchivalTransfer/1.0')
             connection.endheaders()
+            transferred=0;reported=0
             with path.open('rb') as source:
-                while chunk:=source.read(1024*1024):connection.send(chunk)
+                while chunk:=source.read(1024*1024):
+                    connection.send(chunk);transferred+=len(chunk)
+                    if transferred-reported>=64*1024*1024:
+                        reported=transferred
+                        print('Upload progress:',name,transferred,'of',size,flush=True)
             response=connection.getresponse();body=response.read()
             assert 200<=response.status<300,(name,response.status)
         finally:connection.close()
@@ -94,6 +101,9 @@ for name,e in EXPECTED.items():
         assert match(files()[name],e),name
         print('Uploaded and verified:',name,'seconds:',round(time.monotonic()-begin,1),flush=True)
 
+with ThreadPoolExecutor(max_workers=3) as pool:
+    futures=[pool.submit(transfer_one,item) for item in EXPECTED.items()]
+    for future in as_completed(futures):future.result()
 remote=files()
 assert set(remote)==set(EXPECTED)
 assert all(match(remote[name],e) for name,e in EXPECTED.items())
