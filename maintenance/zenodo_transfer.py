@@ -43,7 +43,7 @@ for name,f in remote.items():
     else:
         # Stop the local uploader before dispatch. Only empty partial slots
         # created by that uploader are eligible for removal and reconstruction.
-        assert f['status']=='pending' and f['size']==0,name
+        assert f['status']=='pending' and f.get('size') in (None,0),name
         api('DELETE',f['links']['self'])
         print('Removed incomplete slot:',name,flush=True)
 
