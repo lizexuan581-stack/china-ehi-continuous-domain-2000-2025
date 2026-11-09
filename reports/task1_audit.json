@@ -1,0 +1,14 @@
+{
+  "task": "task1",
+  "seconds": 82.82800000000134,
+  "main_cells": 4072765,
+  "reference_cells": 9379006,
+  "climate_invalid_main": 0,
+  "north_south_status": "complete with explicit cartographic boundary",
+  "aridity_definition": "mean annual P / mean annual ET0, 2000\u20132025; <0.2, [0.2,0.5), [0.5,0.65), >=0.65",
+  "north_main_cells": 3369304,
+  "north_main_pct": 82.7276800895706,
+  "endpoint_extension_main_cells": 532472,
+  "line_source_sha256": "d6583bec13cdc495b13a91fe4ac36c796f80ffd6fa7ca5d55058c82a0e94d604",
+  "north_overlay_seconds": 16.375
+}

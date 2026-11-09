@@ -1,0 +1,6 @@
+{
+  "zip_sha256": "656ea3e576a95f1172503c1f416c8a3b8267bc87e6c090c730a676e96d551478",
+  "array_sha256": "0a527b76ae6943b97bb9cd2ffd365716779f102275f0b31ea96b6e40ff97340d",
+  "grid_template": "data/landcover/LC_2025.tif",
+  "license_url": "https://gadm.org/license.html"
+}

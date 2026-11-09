@@ -1,0 +1,18 @@
+{
+  "task": "task6",
+  "seconds": 2.561999999998079,
+  "status": "complete",
+  "cells": 4072765,
+  "invalid_cells": 0,
+  "seed": 20261109,
+  "draws": 1000,
+  "alpha": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "concentration_convention": "sum(alpha) = 20",
+  "equal_weight_mean_max_difference": 1.2836641472002697e-12,
+  "aggregation": "exact by linearity of the weighted ES4 mean; double precision before raster storage"
+}

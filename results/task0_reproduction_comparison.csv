@@ -1,0 +1,11 @@
+﻿metric,expected_literal,reproduced_full_precision,unit,absolute_error,tolerance,strict_pass,display_rounded_agreement
+primary_cells,4072765,4072765,cells,0,1e-06,True,True
+reference_cells,9379006,9379006,cells,0,1e-06,True,True
+EHI_mean_2000,0.023471,0.023470776428082117,EHI,2.2357191788169306e-07,1e-06,True,True
+EHI_mean_2020,0.030818,0.03081823118172312,EHI,2.3118172311903384e-07,1e-06,True,True
+EHI_mean_2025,0.029976,0.029976126270408,EHI,1.2627040800114453e-07,1e-06,True,True
+change_2020_2025,-2.73,-2.7324894357160012,percentage points,0.0024894357160012426,1e-06,False,True
+mismatch_count_2020_2025,577714,577714,cells,0,1e-06,True,True
+mismatch_percent_2020_2025,14.18,14.184810564812848,percentage points,0.004810564812848028,1e-06,False,True
+mismatch_count_2015_2020,66816,66816,cells,0,1e-06,True,True
+mismatch_percent_2015_2020,1.64,1.6405562314545523,percentage points,0.0005562314545524139,1e-06,False,True

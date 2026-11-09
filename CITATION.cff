@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite the versioned release and its data manifest; a DOI will be added only after verified archival."
+title: "Ecosystem health on continuously observed land in China, 2000–2025: aligned inputs and reproducible analysis"
+type: software
+authors:
+  - name: "lizexuan581-stack"
+version: 1.0.0
+date-released: 2026-11-09
+repository-code: "https://github.com/lizexuan581-stack/china-ehi-continuous-domain-2000-2025"
+license: MIT

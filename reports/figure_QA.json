@@ -1,0 +1,56 @@
+[
+  {
+    "figure": "task1_domain_composition",
+    "collision_verdict": "PASS",
+    "below_minimum_font": 0,
+    "dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  {
+    "figure": "task2_weather_normalization",
+    "collision_verdict": "PASS",
+    "below_minimum_font": 0,
+    "dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  {
+    "figure": "task3_FP_bounds",
+    "collision_verdict": "PASS",
+    "below_minimum_font": 0,
+    "dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  {
+    "figure": "task4_Z_sensitivity",
+    "collision_verdict": "PASS",
+    "below_minimum_font": 0,
+    "dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  {
+    "figure": "task5_trend_significance",
+    "collision_verdict": "PASS",
+    "below_minimum_font": 0,
+    "dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  {
+    "figure": "task6_weight_perturbation",
+    "collision_verdict": "PASS",
+    "below_minimum_font": 0,
+    "dpi": [
+      299.9994,
+      299.9994
+    ]
+  }
+]

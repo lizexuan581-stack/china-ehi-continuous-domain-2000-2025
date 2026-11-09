@@ -1,0 +1,9 @@
+numpy
+scipy
+rasterio
+matplotlib
+pandas
+pyproj
+shapely
+numba
+pymannkendall==1.4.3

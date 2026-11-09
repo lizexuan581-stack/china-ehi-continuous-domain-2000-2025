@@ -1,0 +1,6 @@
+data/
+work/
+results_run/
+__pycache__/
+*.pyc
+*.zip

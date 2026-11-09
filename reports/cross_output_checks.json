@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "Task-1 partitions conserve both masks",
+    "Mismatch percentages reproduce exact counts",
+    "All annual sensitivity rows retain original main support",
+    "Trend categories conserve main support",
+    "Dirichlet weights and negative-draw summaries agree"
+  ],
+  "all_26_original_EHI_rasters": "Task 2 asserted exact pixel agreement with original score reconstruction in every year"
+}

@@ -1,0 +1,2845 @@
+{
+  "version": "1.0.0",
+  "main_cells": 4072765,
+  "reference_cells": 9379006,
+  "years": {
+    "2000": {
+      "components": {
+        "EV": "data/components/2000/EV.tif",
+        "EO": "data/components/2000/EO.tif",
+        "HQ": "data/components/2000/HQ.tif",
+        "Carbon": "data/components/2000/Carbon.tif",
+        "SR": "data/components/2000/SR.tif",
+        "WY": "data/components/2000/WY.tif",
+        "FP": "data/components/2000/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2000_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2000_strict_1km.tif",
+      "land": "data/landcover/LC_2000.tif"
+    },
+    "2001": {
+      "components": {
+        "EV": "data/components/2001/EV.tif",
+        "EO": "data/components/2001/EO.tif",
+        "HQ": "data/components/2001/HQ.tif",
+        "Carbon": "data/components/2001/Carbon.tif",
+        "SR": "data/components/2001/SR.tif",
+        "WY": "data/components/2001/WY.tif",
+        "FP": "data/components/2001/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2001_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2001_strict_1km.tif",
+      "land": "data/landcover/LC_2001.tif"
+    },
+    "2002": {
+      "components": {
+        "EV": "data/components/2002/EV.tif",
+        "EO": "data/components/2002/EO.tif",
+        "HQ": "data/components/2002/HQ.tif",
+        "Carbon": "data/components/2002/Carbon.tif",
+        "SR": "data/components/2002/SR.tif",
+        "WY": "data/components/2002/WY.tif",
+        "FP": "data/components/2002/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2002_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2002_strict_1km.tif",
+      "land": "data/landcover/LC_2002.tif"
+    },
+    "2003": {
+      "components": {
+        "EV": "data/components/2003/EV.tif",
+        "EO": "data/components/2003/EO.tif",
+        "HQ": "data/components/2003/HQ.tif",
+        "Carbon": "data/components/2003/Carbon.tif",
+        "SR": "data/components/2003/SR.tif",
+        "WY": "data/components/2003/WY.tif",
+        "FP": "data/components/2003/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2003_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2003_strict_1km.tif",
+      "land": "data/landcover/LC_2003.tif"
+    },
+    "2004": {
+      "components": {
+        "EV": "data/components/2004/EV.tif",
+        "EO": "data/components/2004/EO.tif",
+        "HQ": "data/components/2004/HQ.tif",
+        "Carbon": "data/components/2004/Carbon.tif",
+        "SR": "data/components/2004/SR.tif",
+        "WY": "data/components/2004/WY.tif",
+        "FP": "data/components/2004/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2004_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2004_strict_1km.tif",
+      "land": "data/landcover/LC_2004.tif"
+    },
+    "2005": {
+      "components": {
+        "EV": "data/components/2005/EV.tif",
+        "EO": "data/components/2005/EO.tif",
+        "HQ": "data/components/2005/HQ.tif",
+        "Carbon": "data/components/2005/Carbon.tif",
+        "SR": "data/components/2005/SR.tif",
+        "WY": "data/components/2005/WY.tif",
+        "FP": "data/components/2005/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2005_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2005_strict_1km.tif",
+      "land": "data/landcover/LC_2005.tif"
+    },
+    "2006": {
+      "components": {
+        "EV": "data/components/2006/EV.tif",
+        "EO": "data/components/2006/EO.tif",
+        "HQ": "data/components/2006/HQ.tif",
+        "Carbon": "data/components/2006/Carbon.tif",
+        "SR": "data/components/2006/SR.tif",
+        "WY": "data/components/2006/WY.tif",
+        "FP": "data/components/2006/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2006_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2006_strict_1km.tif",
+      "land": "data/landcover/LC_2006.tif"
+    },
+    "2007": {
+      "components": {
+        "EV": "data/components/2007/EV.tif",
+        "EO": "data/components/2007/EO.tif",
+        "HQ": "data/components/2007/HQ.tif",
+        "Carbon": "data/components/2007/Carbon.tif",
+        "SR": "data/components/2007/SR.tif",
+        "WY": "data/components/2007/WY.tif",
+        "FP": "data/components/2007/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2007_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2007_strict_1km.tif",
+      "land": "data/landcover/LC_2007.tif"
+    },
+    "2008": {
+      "components": {
+        "EV": "data/components/2008/EV.tif",
+        "EO": "data/components/2008/EO.tif",
+        "HQ": "data/components/2008/HQ.tif",
+        "Carbon": "data/components/2008/Carbon.tif",
+        "SR": "data/components/2008/SR.tif",
+        "WY": "data/components/2008/WY.tif",
+        "FP": "data/components/2008/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2008_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2008_strict_1km.tif",
+      "land": "data/landcover/LC_2008.tif"
+    },
+    "2009": {
+      "components": {
+        "EV": "data/components/2009/EV.tif",
+        "EO": "data/components/2009/EO.tif",
+        "HQ": "data/components/2009/HQ.tif",
+        "Carbon": "data/components/2009/Carbon.tif",
+        "SR": "data/components/2009/SR.tif",
+        "WY": "data/components/2009/WY.tif",
+        "FP": "data/components/2009/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2009_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2009_strict_1km.tif",
+      "land": "data/landcover/LC_2009.tif"
+    },
+    "2010": {
+      "components": {
+        "EV": "data/components/2010/EV.tif",
+        "EO": "data/components/2010/EO.tif",
+        "HQ": "data/components/2010/HQ.tif",
+        "Carbon": "data/components/2010/Carbon.tif",
+        "SR": "data/components/2010/SR.tif",
+        "WY": "data/components/2010/WY.tif",
+        "FP": "data/components/2010/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2010_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2010_strict_1km.tif",
+      "land": "data/landcover/LC_2010.tif"
+    },
+    "2011": {
+      "components": {
+        "EV": "data/components/2011/EV.tif",
+        "EO": "data/components/2011/EO.tif",
+        "HQ": "data/components/2011/HQ.tif",
+        "Carbon": "data/components/2011/Carbon.tif",
+        "SR": "data/components/2011/SR.tif",
+        "WY": "data/components/2011/WY.tif",
+        "FP": "data/components/2011/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2011_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2011_strict_1km.tif",
+      "land": "data/landcover/LC_2011.tif"
+    },
+    "2012": {
+      "components": {
+        "EV": "data/components/2012/EV.tif",
+        "EO": "data/components/2012/EO.tif",
+        "HQ": "data/components/2012/HQ.tif",
+        "Carbon": "data/components/2012/Carbon.tif",
+        "SR": "data/components/2012/SR.tif",
+        "WY": "data/components/2012/WY.tif",
+        "FP": "data/components/2012/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2012_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2012_strict_1km.tif",
+      "land": "data/landcover/LC_2012.tif"
+    },
+    "2013": {
+      "components": {
+        "EV": "data/components/2013/EV.tif",
+        "EO": "data/components/2013/EO.tif",
+        "HQ": "data/components/2013/HQ.tif",
+        "Carbon": "data/components/2013/Carbon.tif",
+        "SR": "data/components/2013/SR.tif",
+        "WY": "data/components/2013/WY.tif",
+        "FP": "data/components/2013/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2013_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2013_strict_1km.tif",
+      "land": "data/landcover/LC_2013.tif"
+    },
+    "2014": {
+      "components": {
+        "EV": "data/components/2014/EV.tif",
+        "EO": "data/components/2014/EO.tif",
+        "HQ": "data/components/2014/HQ.tif",
+        "Carbon": "data/components/2014/Carbon.tif",
+        "SR": "data/components/2014/SR.tif",
+        "WY": "data/components/2014/WY.tif",
+        "FP": "data/components/2014/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2014_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2014_strict_1km.tif",
+      "land": "data/landcover/LC_2014.tif"
+    },
+    "2015": {
+      "components": {
+        "EV": "data/components/2015/EV.tif",
+        "EO": "data/components/2015/EO.tif",
+        "HQ": "data/components/2015/HQ.tif",
+        "Carbon": "data/components/2015/Carbon.tif",
+        "SR": "data/components/2015/SR.tif",
+        "WY": "data/components/2015/WY.tif",
+        "FP": "data/components/2015/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2015_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2015_strict_1km.tif",
+      "land": "data/landcover/LC_2015.tif"
+    },
+    "2016": {
+      "components": {
+        "EV": "data/components/2016/EV.tif",
+        "EO": "data/components/2016/EO.tif",
+        "HQ": "data/components/2016/HQ.tif",
+        "Carbon": "data/components/2016/Carbon.tif",
+        "SR": "data/components/2016/SR.tif",
+        "WY": "data/components/2016/WY.tif",
+        "FP": "data/components/2016/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2016_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2016_strict_1km.tif",
+      "land": "data/landcover/LC_2016.tif"
+    },
+    "2017": {
+      "components": {
+        "EV": "data/components/2017/EV.tif",
+        "EO": "data/components/2017/EO.tif",
+        "HQ": "data/components/2017/HQ.tif",
+        "Carbon": "data/components/2017/Carbon.tif",
+        "SR": "data/components/2017/SR.tif",
+        "WY": "data/components/2017/WY.tif",
+        "FP": "data/components/2017/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2017_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2017_strict_1km.tif",
+      "land": "data/landcover/LC_2017.tif"
+    },
+    "2018": {
+      "components": {
+        "EV": "data/components/2018/EV.tif",
+        "EO": "data/components/2018/EO.tif",
+        "HQ": "data/components/2018/HQ.tif",
+        "Carbon": "data/components/2018/Carbon.tif",
+        "SR": "data/components/2018/SR.tif",
+        "WY": "data/components/2018/WY.tif",
+        "FP": "data/components/2018/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2018_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2018_strict_1km.tif",
+      "land": "data/landcover/LC_2018.tif"
+    },
+    "2019": {
+      "components": {
+        "EV": "data/components/2019/EV.tif",
+        "EO": "data/components/2019/EO.tif",
+        "HQ": "data/components/2019/HQ.tif",
+        "Carbon": "data/components/2019/Carbon.tif",
+        "SR": "data/components/2019/SR.tif",
+        "WY": "data/components/2019/WY.tif",
+        "FP": "data/components/2019/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2019_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2019_strict_1km.tif",
+      "land": "data/landcover/LC_2019.tif"
+    },
+    "2020": {
+      "components": {
+        "EV": "data/components/2020/EV.tif",
+        "EO": "data/components/2020/EO.tif",
+        "HQ": "data/components/2020/HQ.tif",
+        "Carbon": "data/components/2020/Carbon.tif",
+        "SR": "data/components/2020/SR.tif",
+        "WY": "data/components/2020/WY.tif",
+        "FP": "data/components/2020/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2020_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2020_strict_1km.tif",
+      "land": "data/landcover/LC_2020.tif"
+    },
+    "2021": {
+      "components": {
+        "EV": "data/components/2021/EV.tif",
+        "EO": "data/components/2021/EO.tif",
+        "HQ": "data/components/2021/HQ.tif",
+        "Carbon": "data/components/2021/Carbon.tif",
+        "SR": "data/components/2021/SR.tif",
+        "WY": "data/components/2021/WY.tif",
+        "FP": "data/components/2021/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2021_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2021_strict_1km.tif",
+      "land": "data/landcover/LC_2021.tif"
+    },
+    "2022": {
+      "components": {
+        "EV": "data/components/2022/EV.tif",
+        "EO": "data/components/2022/EO.tif",
+        "HQ": "data/components/2022/HQ.tif",
+        "Carbon": "data/components/2022/Carbon.tif",
+        "SR": "data/components/2022/SR.tif",
+        "WY": "data/components/2022/WY.tif",
+        "FP": "data/components/2022/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2022_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2022_strict_1km.tif",
+      "land": "data/landcover/LC_2022.tif"
+    },
+    "2023": {
+      "components": {
+        "EV": "data/components/2023/EV.tif",
+        "EO": "data/components/2023/EO.tif",
+        "HQ": "data/components/2023/HQ.tif",
+        "Carbon": "data/components/2023/Carbon.tif",
+        "SR": "data/components/2023/SR.tif",
+        "WY": "data/components/2023/WY.tif",
+        "FP": "data/components/2023/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2023_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2023_strict_1km.tif",
+      "land": "data/landcover/LC_2023.tif"
+    },
+    "2024": {
+      "components": {
+        "EV": "data/components/2024/EV.tif",
+        "EO": "data/components/2024/EO.tif",
+        "HQ": "data/components/2024/HQ.tif",
+        "Carbon": "data/components/2024/Carbon.tif",
+        "SR": "data/components/2024/SR.tif",
+        "WY": "data/components/2024/WY.tif",
+        "FP": "data/components/2024/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2024_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2024_strict_1km.tif",
+      "land": "data/landcover/LC_2024.tif"
+    },
+    "2025": {
+      "components": {
+        "EV": "data/components/2025/EV.tif",
+        "EO": "data/components/2025/EO.tif",
+        "HQ": "data/components/2025/HQ.tif",
+        "Carbon": "data/components/2025/Carbon.tif",
+        "SR": "data/components/2025/SR.tif",
+        "WY": "data/components/2025/WY.tif",
+        "FP": "data/components/2025/FP.tif"
+      },
+      "EHI": "data/annual_ehi/EHI_2025_n10g4.tif",
+      "climate": "data/annual_climate_1km/POWER_2025_strict_1km.tif",
+      "land": "data/landcover/LC_2025.tif"
+    }
+  },
+  "source_binding": {
+    "common26": "data/annual_ehi/complete_series_domains.tif",
+    "province": "data/static/province_id_GADM41_1km.tif",
+    "land2020": "data/landcover/LC_2020.tif",
+    "static": {
+      "k": {
+        "path": "data/static/soil_national_1km.tif",
+        "band": 5,
+        "dtype": "float32"
+      },
+      "bed": {
+        "path": "data/static/soil_national_1km.tif",
+        "band": 6,
+        "dtype": "float32"
+      },
+      "pa": {
+        "path": "data/static/soil_national_1km.tif",
+        "band": 7,
+        "dtype": "float32"
+      },
+      "pawet": {
+        "path": "data/static/soil_national_1km.tif",
+        "band": 8,
+        "dtype": "float32"
+      },
+      "ls": {
+        "path": "data/static/terrain_national_1km.tif",
+        "band": 4,
+        "dtype": "float32"
+      },
+      "r": {
+        "path": "data/static/Rref_national_1km.tif",
+        "band": 1,
+        "dtype": "float32"
+      }
+    },
+    "parameter_csv": "metadata/land_class_parameters.csv",
+    "anchors": "metadata/fixed_historical_anchors.json",
+    "pure_helper_sources": [
+      {
+        "path": "code/original/ecological_services.py",
+        "sha256": "8690c025478ab3f601af6fd0aab528388a455336ef7977ab0dee283eae8a2a13",
+        "functions": [
+          "_arrays",
+          "_nonnegative",
+          "_fraction",
+          "water_yield_budyko"
+        ]
+      },
+      {
+        "path": "code/original/service_chain.py",
+        "sha256": "ccad4d12080100d8604d3e960dc8d5aab426af801ff0c1250befc83695b26bdc",
+        "functions": [
+          "cover_factor"
+        ]
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "data/annual_ehi/EHI_2000_n10g4.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 229365017,
+      "sha256": "dfc09a662663a21969d574b412a2502d8fda107768c613b6b59d23709bc73edd",
+      "roles": [
+        "EHI_2000; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2000/EV.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 61890802,
+      "sha256": "e184701a9dae60f06093b9b1a2dea695a2d97831157099a7bccfc6a02d096050",
+      "roles": [
+        "EV_2000; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2000/EO.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 9822981,
+      "sha256": "b2b2124124379637e73ea73f697e19cb0205e1c3fb81a90cf2b8d1ebdd7d1075",
+      "roles": [
+        "EO_2000; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2000/HQ.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 10738453,
+      "sha256": "38cb27e7a2b4d8ff8d6b095ef1bc1091fd5996c490b72c48133a4547ce5f0cbf",
+      "roles": [
+        "HQ_2000; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2000/Carbon.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 64734960,
+      "sha256": "16397125725efd6827379459dc521f6fd9123b68fccb8b1cac175a3a59bf0a72",
+      "roles": [
+        "Carbon_2000; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2000/SR.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 85943114,
+      "sha256": "55a3a5c40dc7d379458f1f8d4e835b4ee096475a0cd25b5a071d94e6f6210308",
+      "roles": [
+        "SR_2000; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2000/WY.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 83135510,
+      "sha256": "119fbc110da5f07772c96f7d65d3aa83a534ee444d68f537a4ea92354aab324f",
+      "roles": [
+        "WY_2000; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2000/FP.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 96145757,
+      "sha256": "e22c67c059631e47e84efabb6da35def1e2c0a8d45c544521c006f79e1a1bdbe",
+      "roles": [
+        "FP_2000; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2000_strict_1km.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 60602310,
+      "sha256": "8f65dcea7674287d937ebe4d58b43952a789c8a9a83fa008141f3ed08a0c1955",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2000.tif",
+      "bundle": "annual_2000.zip",
+      "bytes": 866200,
+      "sha256": "e0572370714ef66e6ce8896f397c9876b773f9ce3b0dbf033047bd5cc05310b2",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2001_n10g4.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 236467801,
+      "sha256": "3e6332647959d4ecc2d693b82ebbb089e152ccac703505f4504ae19ba4e4bf53",
+      "roles": [
+        "EHI_2001; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2001/EV.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 61950591,
+      "sha256": "a9aaad02e1cfb5540d16a250cf76cb1cc236edabb8f68562d05b0d8fb7d07014",
+      "roles": [
+        "EV_2001; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2001/EO.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 13467045,
+      "sha256": "5c60af6eb06ad8ee04ae9b0a2c7f722c5a08ca1bca135bff20a91656bb6f2904",
+      "roles": [
+        "EO_2001; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2001/HQ.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 17900107,
+      "sha256": "01e3822fc120ee40d590f483c740830649b8f68f8bf88aa3d5216c8eccb3283b",
+      "roles": [
+        "HQ_2001; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2001/Carbon.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 63487201,
+      "sha256": "851f1e39af0d9ad637da61df0839e234b63a62ef596318eed361869bcb31e79a",
+      "roles": [
+        "Carbon_2001; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2001/SR.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 68755494,
+      "sha256": "8f7b6ded80449941c9e2116a627a9a0b18ef3906990b4569cd3d84d69651ae1a",
+      "roles": [
+        "SR_2001; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2001/WY.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 83625366,
+      "sha256": "ce08291dc0f42aaae0765a07f9f62204f2fbe77f4d748ca9000bb7d60726f4af",
+      "roles": [
+        "WY_2001; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2001/FP.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 96374417,
+      "sha256": "bbcbea04d8b08e1c34ec03258319f372bfe8594bd20c4c1933ecf26483f10dd9",
+      "roles": [
+        "FP_2001; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2001_strict_1km.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 60896642,
+      "sha256": "089c17f26a69d1d6127513179598f47b9867f62fcbadb006926faabafb6d9573",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2001.tif",
+      "bundle": "annual_2001.zip",
+      "bytes": 871260,
+      "sha256": "7b1e4188b18212bf65461f330b4091fcf8580b3f1943edeb6a70e6e7ed60568d",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2002_n10g4.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 227259711,
+      "sha256": "49b3f717b125abe2d088af8fd73e58ea492ffffc3f1f935cfabb624dbc4c1ea9",
+      "roles": [
+        "EHI_2002; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2002/EV.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 61862751,
+      "sha256": "862c2fbf3b9f99a1504a2fc2dbdf0131e55e500fd68508ff2bd883a87bcc4e85",
+      "roles": [
+        "EV_2002; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2002/EO.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 13510501,
+      "sha256": "c85ea248e4b0743c06db97e26ac9879fbb2300b29ec0bce7b40b875b940a1602",
+      "roles": [
+        "EO_2002; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2002/HQ.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 17994231,
+      "sha256": "eeccec14876fc98ffdfb219fcea15e24fe0e9d32084187caf69de760ae127120",
+      "roles": [
+        "HQ_2002; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2002/Carbon.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 63502433,
+      "sha256": "21013d4955ce291ee7d33c7052d54c38f120c8a9395c6129e1dd7636472bd4ed",
+      "roles": [
+        "Carbon_2002; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2002/SR.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 66946418,
+      "sha256": "2b8533cbb17d1b8e4afc38bac8c24b260d5adcf527e8acf58aed828d757f5b76",
+      "roles": [
+        "SR_2002; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2002/WY.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 83528220,
+      "sha256": "c96b6338f6dd09730d3eff8c2a2090ff79118ec4b95f322e6edb2e7330fe9bff",
+      "roles": [
+        "WY_2002; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2002/FP.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 96637561,
+      "sha256": "a01c4ff3bcfa92009bbf5baaaf4ce0e14a8f9bfafbd353f1e762d6cd661dd8e6",
+      "roles": [
+        "FP_2002; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2002_strict_1km.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 60753820,
+      "sha256": "79a79273fc7604a68265e620806afcb32997b36d3ba9b8e9dc2d225137d97c18",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2002.tif",
+      "bundle": "annual_2002.zip",
+      "bytes": 873503,
+      "sha256": "b785e938d789ef15af3222b1ae3b56703d46b378133e3decfbbf21f6b16a57a0",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2003_n10g4.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 234186307,
+      "sha256": "dca68c34d581e5b0f3b4f64bd4e7559bb503f04bb824a9e1a50cf965fa664586",
+      "roles": [
+        "EHI_2003; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2003/EV.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 62469249,
+      "sha256": "d702411a60c28c1e5e7725b70a01c89e69245d2a2c1bead4bb08773efc86d33b",
+      "roles": [
+        "EV_2003; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2003/EO.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 13542453,
+      "sha256": "70157b008378836ac5c3a6968619235b99d5ef15ec24e1b32fa098739fa56640",
+      "roles": [
+        "EO_2003; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2003/HQ.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 18075281,
+      "sha256": "a4855c7b8839b96635a3c9535c5b8858e958896c3b3bcda7c05e3843cbc4d17b",
+      "roles": [
+        "HQ_2003; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2003/Carbon.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 63513781,
+      "sha256": "ac0cf4a452af80bfa9deefbb8f58ed68465307897741dbc9d62e391a9ac466c7",
+      "roles": [
+        "Carbon_2003; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2003/SR.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 68597574,
+      "sha256": "f364638c53d195e80d8d50b31a81f68b3c2b75c8d88132d87fe896a82bce876f",
+      "roles": [
+        "SR_2003; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2003/WY.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 83901442,
+      "sha256": "39ac9c03e22ccc9ec2f06baac07e6c0935755af992a32dc12d56edbf4f85abbf",
+      "roles": [
+        "WY_2003; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2003/FP.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 96924531,
+      "sha256": "cee478dac90efdab8f9fc57a37a3cee0e707db5ced7f7090f6acecda1fa4341a",
+      "roles": [
+        "FP_2003; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2003_strict_1km.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 60719240,
+      "sha256": "5d21da46c796cca9d08f0d23fbe33720bad1168a7f6190bb223aaf0999a70779",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2003.tif",
+      "bundle": "annual_2003.zip",
+      "bytes": 875242,
+      "sha256": "638a6a24b5351777046fb4f10fcd9efa861554453a726d62a3c2991e1dfdb767",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2004_n10g4.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 235825113,
+      "sha256": "302bed22d65564492484bd3d480a43470814b59f7e49fd9885114bab8bfcfe91",
+      "roles": [
+        "EHI_2004; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2004/EV.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 61295439,
+      "sha256": "012073c1cd3df1f85cee9ac20f67d6814012968106b46c15d3eb1e1f77aeeba3",
+      "roles": [
+        "EV_2004; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2004/EO.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 13545555,
+      "sha256": "5644ad55542f221bd3f96b609e28dc762959f3992d5d3e06c1ce65a9d8592116",
+      "roles": [
+        "EO_2004; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2004/HQ.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 18208785,
+      "sha256": "3454fcac674e143a20f37676c2e3c9c6839da8d0dd2114700d5478ebe49147ca",
+      "roles": [
+        "HQ_2004; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2004/Carbon.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 63509145,
+      "sha256": "e4953894d6f01609a087a399aa412e3305aecec24034b606126cba50558ff1f0",
+      "roles": [
+        "Carbon_2004; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2004/SR.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 68814978,
+      "sha256": "f48dbfb45bef2d82a68a4d8c6e8f569f64da9a51007b587003275b2a8ee15b67",
+      "roles": [
+        "SR_2004; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2004/WY.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 84154872,
+      "sha256": "d035b2414db3da2cbf9830648d2594b076fd8587659103cc18d06e7b16f29dca",
+      "roles": [
+        "WY_2004; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2004/FP.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 95877479,
+      "sha256": "a2aca91c88446ecba18b1cd70974f6dc4a2b3fb9b140b69b20cc635aeebc4a4d",
+      "roles": [
+        "FP_2004; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2004_strict_1km.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 60760408,
+      "sha256": "e6c53983fbcf6d814e1aeac6d6aca8bc374f97a1f7330f9ab2bf79c01d47cc5d",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2004.tif",
+      "bundle": "annual_2004.zip",
+      "bytes": 876875,
+      "sha256": "08542e4d7687d4d6a3bd79815c2d03bf4026b64c69eab756ab9adfc42cba2354",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2005_n10g4.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 222050267,
+      "sha256": "4eea06bd252b2dbccac530efe828488cabb529c78b11882daa6ab003237742d6",
+      "roles": [
+        "EHI_2005; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2005/EV.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 61474589,
+      "sha256": "25372b35c874543bf93c7ab58ccadff13cf29791641301d4cbbd8459acb7770b",
+      "roles": [
+        "EV_2005; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2005/EO.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 9999665,
+      "sha256": "cef0b42bdd879232fd262cab6e531f8dd4f392c801d769839aa9946f1bc319be",
+      "roles": [
+        "EO_2005; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2005/HQ.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 11232327,
+      "sha256": "2bc55c933a8cb55c3b649661ede6cb98521645226db274b529737f678b91f374",
+      "roles": [
+        "HQ_2005; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2005/Carbon.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 64714590,
+      "sha256": "7448029dead219fb9d9aff28efd7721667105e6d8bd99f84fb1a86afc8b9c3b2",
+      "roles": [
+        "Carbon_2005; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2005/SR.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 84501208,
+      "sha256": "96967a390e7bc9b56371629210639ca1588f203f4953ec80758a7da03e3c3f29",
+      "roles": [
+        "SR_2005; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2005/WY.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 84207646,
+      "sha256": "5bd8a4d74aefb9ff08ab4cb4cc5289decb2ba041246f51bb0328b1151c3a7804",
+      "roles": [
+        "WY_2005; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2005/FP.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 95726187,
+      "sha256": "b5319a12594fb54e08a51588031ccc37c0f62c2d2d8142104d0b25d246c34fd3",
+      "roles": [
+        "FP_2005; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2005_strict_1km.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 60849782,
+      "sha256": "019d266001fe3b00d055b5e91c564fb4c572d3ad03008bda468e43ef6c9d412e",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2005.tif",
+      "bundle": "annual_2005.zip",
+      "bytes": 879696,
+      "sha256": "83fb33988a9798d9f0d1d82846d23093821f82e128d19f06ffbf8e0b299f643c",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2006_n10g4.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 228399979,
+      "sha256": "ec10c13c6e07ee593c9824c6a216d3dc4896d82a23833c9d6527abca0af6f0d3",
+      "roles": [
+        "EHI_2006; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2006/EV.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 61883033,
+      "sha256": "b222b3f7ab9553195ad96c88e70407b6138c9fbfc4dff26bcd93aafcec527bc0",
+      "roles": [
+        "EV_2006; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2006/EO.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 13612289,
+      "sha256": "4ea6aa5d062a29270eec485d8fbf767267af6357fca737bfe6a0e122ef36334b",
+      "roles": [
+        "EO_2006; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2006/HQ.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 18492773,
+      "sha256": "d2fe1933cb20edc0016be7c3ebf2028e9f207579ce88bd86b7b80892f364d6c7",
+      "roles": [
+        "HQ_2006; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2006/Carbon.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 63537587,
+      "sha256": "cfbde2f21fb6d89a8b24fb1cd48ee465552435d7e9c98c7ca5fbc9e5fd5fd983",
+      "roles": [
+        "Carbon_2006; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2006/SR.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 67250530,
+      "sha256": "65413a69ea9e4db4d013bca36f1b04a092b43cf963505a444544c9922516701f",
+      "roles": [
+        "SR_2006; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2006/WY.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 83927874,
+      "sha256": "dc7d50311b977cca7d6a992639220dcc3d766d1348f43589fd472dcded421fae",
+      "roles": [
+        "WY_2006; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2006/FP.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 95940785,
+      "sha256": "e361ca20f70f417a75b141dd3ba77850ad7471b4717b3b7ec4927f11a408e1e2",
+      "roles": [
+        "FP_2006; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2006_strict_1km.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 60704786,
+      "sha256": "b6fcb388881c9c04459cd6572f63ea776a5aebe6569eab73524833f541790637",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2006.tif",
+      "bundle": "annual_2006.zip",
+      "bytes": 882645,
+      "sha256": "264b2d2c0ef167d6d6faaa91dc120462264aada1a9e452741152c63b86b5cf3a",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2007_n10g4.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 227464737,
+      "sha256": "ad3fd90c5e17aad63e499412575dd3a86ecd2dcd7b2cd9ac1421e74bc1ae5fec",
+      "roles": [
+        "EHI_2007; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2007/EV.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 62135763,
+      "sha256": "bccf0b8a46e76e9439b48ede12e6186e332bfa39bae2af5b51fcf43cbbed3754",
+      "roles": [
+        "EV_2007; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2007/EO.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 13644147,
+      "sha256": "af4229d93c3659f11db9441ed908d3da1b705e830be1419baedf159d8a3aa49f",
+      "roles": [
+        "EO_2007; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2007/HQ.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 18663999,
+      "sha256": "5c6e3f5d3fe53e39b9bd94288836b1be0d82e11db983b393a4c224cb76b5ca46",
+      "roles": [
+        "HQ_2007; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2007/Carbon.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 63549769,
+      "sha256": "6112025e8d387e125ff1b061a1d13708887bf645d4e18ff911d646bb90662719",
+      "roles": [
+        "Carbon_2007; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2007/SR.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 67483956,
+      "sha256": "7f9099551a932829ca81038b2a4d6ad8363442fc07ced03b82d59c15b4e51531",
+      "roles": [
+        "SR_2007; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2007/WY.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 84427188,
+      "sha256": "adeac29b73040f5ef290697b25cb618e320670550c7905e25f1aa5a4e22c3cab",
+      "roles": [
+        "WY_2007; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2007/FP.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 96009553,
+      "sha256": "6f79a528b8908946578e2e8ddfb216e96c8e00202f6cc85b8007d51f51a25189",
+      "roles": [
+        "FP_2007; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2007_strict_1km.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 60794136,
+      "sha256": "28d1668c99bc9c75084518e5b9bdcc6bfda96542719f914ccf3e2324b0d2a132",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2007.tif",
+      "bundle": "annual_2007.zip",
+      "bytes": 885586,
+      "sha256": "f75a13f582e222ed7407bc9d2c6b63fa57b528cfb8b31c98034a0d9e48091392",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2008_n10g4.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 226170105,
+      "sha256": "39cb19934b4ff6bd3090eac9798e510f84d31512ec11f70d5e296a56e332d8ad",
+      "roles": [
+        "EHI_2008; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2008/EV.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 62160121,
+      "sha256": "a72e13fe02f9df2522a032dbf3a68f4f231ec189a13e2adae9f6e818377b80aa",
+      "roles": [
+        "EV_2008; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2008/EO.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 13658275,
+      "sha256": "918e663fc54cae2e0004a017452adf7e02f57428fbc7c9e47da2535ad152953f",
+      "roles": [
+        "EO_2008; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2008/HQ.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 18824387,
+      "sha256": "8ba7e488caef67033a46ae7c4fb94e59490ba081bcf65c572dd4c3c778b2e8a9",
+      "roles": [
+        "HQ_2008; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2008/Carbon.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 63549073,
+      "sha256": "59cb79df27dcbe3a2a6f8f6f8c4160201b979aa4dc9d3612232ba56f16538ebf",
+      "roles": [
+        "Carbon_2008; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2008/SR.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 66573984,
+      "sha256": "bfbfcb1d7394ef7bf5b0935303bc2ff8e81b7a42b18db4ddfdb686e20f2338b8",
+      "roles": [
+        "SR_2008; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2008/WY.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 83980150,
+      "sha256": "f9b5455b7fb00a6e7fa3255474a1ac726e07dfc41647069b4dc79145030504c3",
+      "roles": [
+        "WY_2008; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2008/FP.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 96679235,
+      "sha256": "d025c819a04402572c918aaec079c434466b072593665df316303e08543a8409",
+      "roles": [
+        "FP_2008; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2008_strict_1km.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 60636242,
+      "sha256": "c3220030ae088cf30d6a281e192d2e2aed279f509be6a600b99baf37083ca1d8",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2008.tif",
+      "bundle": "annual_2008.zip",
+      "bytes": 887409,
+      "sha256": "ddca72006b3154340369eddeae315e6614b8e2e6418f6d8f6a4f29b31cf598b1",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2009_n10g4.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 234561317,
+      "sha256": "ecea83a16fd61666389ff972f3ad994f006e16874d86cbf99664e6f40991ac2c",
+      "roles": [
+        "EHI_2009; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2009/EV.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 62456309,
+      "sha256": "19683c76a72334908f4f6327c717110db5ed2024f4825c723985644121acf471",
+      "roles": [
+        "EV_2009; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2009/EO.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 13640825,
+      "sha256": "c4274999a7b9a3b3f1d023949f49be3dedb32fcdd7a748e935e262a0128d12b9",
+      "roles": [
+        "EO_2009; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2009/HQ.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 18936353,
+      "sha256": "d5a0e26dfbaf47dbd4c1018f05c8f90001a0033e8dc327bd10e2a9404b49ed5b",
+      "roles": [
+        "HQ_2009; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2009/Carbon.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 63530081,
+      "sha256": "0f633a5ae5c697b07a4454acbfa9a771ea79a2d7c254f84b3ba9936ec09319dd",
+      "roles": [
+        "Carbon_2009; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2009/SR.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 68888650,
+      "sha256": "7ae3c4900f1c669744ca7b50b32735e7e14b848cd7f23ac15377f19d8dcbd961",
+      "roles": [
+        "SR_2009; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2009/WY.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 84442988,
+      "sha256": "90b53793f49cd8ff693701af738045f2b34067c98f3e1105310c7f8ab836e93f",
+      "roles": [
+        "WY_2009; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2009/FP.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 96236893,
+      "sha256": "acb2a95ab810022984910e8ea95a1b63579cfc459d22af74cdda6b7255485a18",
+      "roles": [
+        "FP_2009; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2009_strict_1km.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 60824990,
+      "sha256": "ddcf5905f65c1a9397cb175df04e44948dc949271155aea8cb5640e313df53c8",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2009.tif",
+      "bundle": "annual_2009.zip",
+      "bytes": 887974,
+      "sha256": "4c26aca5610d2e639709f1f094112834cb3609266b266e21b39333869f1d4eab",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2010_n10g4.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 230485159,
+      "sha256": "6e0d1a9f24d4172ec02798e8279ccc48e6bdcff4e7e87daee07d7233357bbe06",
+      "roles": [
+        "EHI_2010; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2010/EV.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 63078427,
+      "sha256": "14ada930dcb75a96930b92472f562d6ac785e354871917cdcb100f9661918a10",
+      "roles": [
+        "EV_2010; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2010/EO.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 10103489,
+      "sha256": "a41d45bc25f2b6e3efc939dd7297504a9ead298c115ea58308e13dc8e8568ecb",
+      "roles": [
+        "EO_2010; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2010/HQ.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 11834211,
+      "sha256": "a2edc87bfd17f941fb16017c8aec3b51613f1a927195e78196be302d22f7fbbd",
+      "roles": [
+        "HQ_2010; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2010/Carbon.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 64669198,
+      "sha256": "02423307b1dd566eb32c37aaf65248922ceb82823291869a2a528df0df2306b9",
+      "roles": [
+        "Carbon_2010; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2010/SR.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 87519384,
+      "sha256": "83d2ee4a23bfff89e1f153e99dc36823d7319474dc17d76e34ffb83ab5ba8090",
+      "roles": [
+        "SR_2010; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2010/WY.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 84618800,
+      "sha256": "103024b3eb78a54e41879b486ef3283a051f768bcb85eefa360418b293eafcea",
+      "roles": [
+        "WY_2010; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2010/FP.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 97234395,
+      "sha256": "b58a2e05e800ca31e0be667b9b288068867d83e19916981090b807e9fa8e19f2",
+      "roles": [
+        "FP_2010; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2010_strict_1km.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 60913880,
+      "sha256": "95c08ad87a7fbf880fe5433b579d6a26e5416f14f51669452f3ac67f4d90b1f8",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2010.tif",
+      "bundle": "annual_2010.zip",
+      "bytes": 889355,
+      "sha256": "8c83c701fc293bcc61a67d0ed6129041ac5b2b09225102d06f61de0b574ef4eb",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2011_n10g4.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 228217435,
+      "sha256": "9412cd7f68ac66302bcbb9ad033c67d3bb22ef03ca04cc8eda2fe8beefb259df",
+      "roles": [
+        "EHI_2011; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2011/EV.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 62885861,
+      "sha256": "85ff417a2b9cc603cb5a4320ee5bfb4a32278f64272159bf74322692a02331ba",
+      "roles": [
+        "EV_2011; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2011/EO.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 13663837,
+      "sha256": "16fc7f500d81c62b0dba3b12418d1cd54350d75056bdafc5dff68244c950a869",
+      "roles": [
+        "EO_2011; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2011/HQ.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 19139897,
+      "sha256": "b0564565ce3da4ff65a6c7e5f6a8b8b385e4dc1489e3303c0d6fd71ab585d052",
+      "roles": [
+        "HQ_2011; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2011/Carbon.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 63516597,
+      "sha256": "c0fe4b114acdc9d7eaf919ec400f66d8b838a97edf6d7492bb5725b59c6e3078",
+      "roles": [
+        "Carbon_2011; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2011/SR.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 67210744,
+      "sha256": "118116abc7378f04415b50be587219ddc8b082a6d6f5cf6f515e617146a08a95",
+      "roles": [
+        "SR_2011; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2011/WY.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 84987214,
+      "sha256": "7776b940ca5fb9974f2330ab61323eea21b8e6125f24f9ecc5f6694515ac8f1f",
+      "roles": [
+        "WY_2011; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2011/FP.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 96678415,
+      "sha256": "06045177acfcf00b85f36818723e15d194db7f0a2fcf892f46badcfbbf605b27",
+      "roles": [
+        "FP_2011; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2011_strict_1km.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 60954000,
+      "sha256": "d3487ac594ec3e24ac9039772766e5cee78ad94208ec6d4c48e5607dee802e95",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2011.tif",
+      "bundle": "annual_2011.zip",
+      "bytes": 889641,
+      "sha256": "534060ec8d9753523971b3f061c0d2adcb8cafcccd7e3649b9b3a887600918dc",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2012_n10g4.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 212061163,
+      "sha256": "b71fc4a5b2e0b96b54e389aee643ac667a8f9243655600cc133134955dccdace",
+      "roles": [
+        "EHI_2012; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2012/EV.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 61696661,
+      "sha256": "2b8c1860277fbb95ee5d7f0abf7c59271e5a2108538db46622f9600039db446e",
+      "roles": [
+        "EV_2012; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2012/EO.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 13685815,
+      "sha256": "048d5c9a82d852accb70dba635fd0c0c476bb6c9852087b42da5d4bcd4e67284",
+      "roles": [
+        "EO_2012; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2012/HQ.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 19216221,
+      "sha256": "83651f8a8a7cf7656a43212233611e040b245f71d7a897d59192b71315627232",
+      "roles": [
+        "HQ_2012; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2012/Carbon.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 63510293,
+      "sha256": "801951750d483e9a5e7614a891dbda589c2de70ff56df4c2ac633234d519cc13",
+      "roles": [
+        "Carbon_2012; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2012/SR.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 63446834,
+      "sha256": "045dbe3a6555ae3b834740b2567a7ff309a943e3a1cc6fa4481e041529bb8358",
+      "roles": [
+        "SR_2012; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2012/WY.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 84038542,
+      "sha256": "e9b0e93140488d6eedb9f11fb540d5dd7af2aaa05a83fa2b8393522f4ca4223c",
+      "roles": [
+        "WY_2012; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2012/FP.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 95994713,
+      "sha256": "e463ccdc906ae2a7ce660519e0c7b6f050209577e6641b3c342e0772449ea5ab",
+      "roles": [
+        "FP_2012; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2012_strict_1km.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 60811602,
+      "sha256": "305afe302ecdba773d4292213fdc981d370004ccfadcab678ea9836cdab11338",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2012.tif",
+      "bundle": "annual_2012.zip",
+      "bytes": 890171,
+      "sha256": "73207c17d22017b5ced93d3383403ad309263a292cea85b4b230885e31a8b8d7",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2013_n10g4.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 233464625,
+      "sha256": "2e8e6739af49d838914d54060efb22909afbc7675b77ba239f7fdfcb290d5928",
+      "roles": [
+        "EHI_2013; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2013/EV.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 63261309,
+      "sha256": "1e4973e46b1ab54a3c4eac8d476938c9bfc627cee3b1768978b07cdbdf7f2843",
+      "roles": [
+        "EV_2013; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2013/EO.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 13824571,
+      "sha256": "56e7eb65c9ce48d5924de5b73d4277ab2273ae21897fca56fcd292cbb12b3406",
+      "roles": [
+        "EO_2013; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2013/HQ.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 19467569,
+      "sha256": "97717e727df9706ecb5481bd0cb64088bae9bf21e531de1d2fe1e0811bf2924f",
+      "roles": [
+        "HQ_2013; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2013/Carbon.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 63556175,
+      "sha256": "e1bf36548ff0a593f3dcfcbe11a099375d26f7b5ecc1d28bdeab4ddd9dad27dd",
+      "roles": [
+        "Carbon_2013; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2013/SR.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 68567710,
+      "sha256": "bd581d59ad4e1f828b85ee0aba4a688333ca2014437d8584c851cac80206f758",
+      "roles": [
+        "SR_2013; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2013/WY.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 84309936,
+      "sha256": "854a968f579a8c5ba2f7b0c400a86622bdae54a0f1199b68a05871a9854a0a2a",
+      "roles": [
+        "WY_2013; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2013/FP.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 97569139,
+      "sha256": "3c3f0515d0fd5837009e0ffc3fbc331976b95f7289483e3f0517318a473b1434",
+      "roles": [
+        "FP_2013; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2013_strict_1km.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 60808526,
+      "sha256": "6bd9c91440e839879d4fc3a43b5b70b48c64fc7708cd1d2ed162f3f0ac716389",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2013.tif",
+      "bundle": "annual_2013.zip",
+      "bytes": 897552,
+      "sha256": "73ab842f8a598e7945e8013fa6b34be0ceba54188325fcee8271e7395dca8cd5",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2014_n10g4.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 214794871,
+      "sha256": "89a0fb9c56ef66a4df7982965cdc50de9e8245c9c59fcd1aafa98b6538335ee6",
+      "roles": [
+        "EHI_2014; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2014/EV.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 61840431,
+      "sha256": "a4da90ea44f14fad0d4eb5797b5435270e3e958e1477a65e228469bb42f523f3",
+      "roles": [
+        "EV_2014; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2014/EO.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 13880479,
+      "sha256": "9791008ecbae56064f308e4b31ade5d9d66f125b8f23541606a6f6e5c3b79d08",
+      "roles": [
+        "EO_2014; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2014/HQ.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 19602873,
+      "sha256": "7b3441f25d2ab82474855f9352f8f99396449d3d64e4059dbcaf412b6dcfa55f",
+      "roles": [
+        "HQ_2014; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2014/Carbon.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 63577197,
+      "sha256": "ae300bda4db8711efd6b3cdbbd5c169715ed2555ee176aaa3c04aeb84727d36c",
+      "roles": [
+        "Carbon_2014; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2014/SR.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 64458820,
+      "sha256": "8308a1fea03aedcf2e5270138b1c09e8816e333535e44d0d020742868c637b8d",
+      "roles": [
+        "SR_2014; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2014/WY.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 84222314,
+      "sha256": "2f9959488a7ab44e8e63ec5b4b0f90735d2b23127a1bc6203cb150fe51528f61",
+      "roles": [
+        "WY_2014; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2014/FP.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 96993317,
+      "sha256": "c0abcd9cd9255dc52110c78580c95280411c2a80bd4cb79e1e8a43d0ded704a9",
+      "roles": [
+        "FP_2014; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2014_strict_1km.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 60884418,
+      "sha256": "2008138e9d69c4d958e314c72645a30417e2397776c55b7ba2ec04b29b1c12f7",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2014.tif",
+      "bundle": "annual_2014.zip",
+      "bytes": 901117,
+      "sha256": "99183ab7bc93b21197e4a7f39e61d9a1884d88614482e773dabdf186753f64d0",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2015_n10g4.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 227833001,
+      "sha256": "bd35d733599580d0594d9afeda3089c65a80da8aa6fa7939a7d4c1f6428e126e",
+      "roles": [
+        "EHI_2015; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2015/EV.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 63034443,
+      "sha256": "b21ccfc3cfbbc88f72cd2d00c03e94baf4b95c94a32e3dc499017aae3dae4466",
+      "roles": [
+        "EV_2015; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2015/EO.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 10269709,
+      "sha256": "40de93ae89e104fa8afa0b39be3291963cb328faebb3fb955b937f7784cfd393",
+      "roles": [
+        "EO_2015; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2015/HQ.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 12294337,
+      "sha256": "f40eef4e70d6533b5aa57ed1a9ba9e9c83146d693ab2e5c5afabbe6b106ae60a",
+      "roles": [
+        "HQ_2015; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2015/Carbon.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 64667384,
+      "sha256": "3756761694fc0954a158c0a1b8ec068e61844298bb4c2c693ec34dfe79a8135c",
+      "roles": [
+        "Carbon_2015; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2015/SR.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 87356592,
+      "sha256": "0bc366c6a41431a41d6110d22d78b07071f6c2622d2cd9c9317576f3fdedfff1",
+      "roles": [
+        "SR_2015; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2015/WY.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 84504340,
+      "sha256": "5dd5fbb85721dbde2c55dbacf358ace810a627a86d5970f371804a57a401d582",
+      "roles": [
+        "WY_2015; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2015/FP.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 98254999,
+      "sha256": "6a9867bd0b0d8ae6f21614d88dc5d727cc5ac498625a2969ccbfa7df2e11374b",
+      "roles": [
+        "FP_2015; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2015_strict_1km.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 60842630,
+      "sha256": "58aaa805fb3345fe57e23e9e228b21c96d5185940dddcdbc7c839d21ec2a8353",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2015.tif",
+      "bundle": "annual_2015.zip",
+      "bytes": 902359,
+      "sha256": "660e16e80060e2472090d3d3360ccdbb0c0a80d7d1053172d5c30585898d3b48",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2016_n10g4.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 230138539,
+      "sha256": "409154596943d677ab6dca7ee36e55cedc0658d78e22efed6e6b03de7723ebbc",
+      "roles": [
+        "EHI_2016; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2016/EV.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 63191751,
+      "sha256": "284bc281f2bc0b0f3f6a48e4c936217395944a9557a906d43be9b56de2e802d2",
+      "roles": [
+        "EV_2016; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2016/EO.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 13879887,
+      "sha256": "4b9f9b98e0388896d4e7c2e4c5857ab05c61739d593f5197fcee88cc846f6b07",
+      "roles": [
+        "EO_2016; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2016/HQ.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 19815959,
+      "sha256": "fb3c97ffef6386f1e7f446a0d330497eb99d36f7403648fa2a87e41d63cc6c68",
+      "roles": [
+        "HQ_2016; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2016/Carbon.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 63563273,
+      "sha256": "0e0c9db8bf1391264a69f529cfcd8de267a465584d4b733099f30049ecce5084",
+      "roles": [
+        "Carbon_2016; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2016/SR.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 67883636,
+      "sha256": "22e7b8c30faec983fc19bd0b877dc156c9fe9a776cf374cafca06872a19a2ca6",
+      "roles": [
+        "SR_2016; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2016/WY.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 85036252,
+      "sha256": "d6eab4008053a17dd54f286c7aa9cfbc445cb08dee1f4c2749d1ebd2671b9004",
+      "roles": [
+        "WY_2016; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2016/FP.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 98389193,
+      "sha256": "a733b446bfaca55f027a3c0223521987519d57d2cd875e4ae031a657279761d8",
+      "roles": [
+        "FP_2016; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2016_strict_1km.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 60789056,
+      "sha256": "bb51f966753be2e7388d4cd1592f9845b2ba191dd2e68778a95c22cc98a2b707",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2016.tif",
+      "bundle": "annual_2016.zip",
+      "bytes": 902078,
+      "sha256": "4ba936ee753eea14fd50b19165f2a3a134ab7c9af9d637b69d6079c71de80217",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2017_n10g4.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 230816359,
+      "sha256": "db9be46d225186ed9650d6f17f2f524d30728ed1a6708b4882c265b8c5588f46",
+      "roles": [
+        "EHI_2017; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2017/EV.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 63036713,
+      "sha256": "8cde5af0de0b4d6a5fb889eaddaef72759b1d92e45fe0644989c51555407c043",
+      "roles": [
+        "EV_2017; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2017/EO.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 13887327,
+      "sha256": "0486be13ce42eea7f9bc6e11e4ba64d7620be5727dfcb5ba61e422b31abb7727",
+      "roles": [
+        "EO_2017; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2017/HQ.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 19885389,
+      "sha256": "c04f84b8e1720c290c243750b5b5678cf0af05e95cb82310d08f13a099379a35",
+      "roles": [
+        "HQ_2017; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2017/Carbon.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 63562643,
+      "sha256": "edc98b1844068ae9df3495c640ae23b6e742a656e368c5ea94a81880ec96013e",
+      "roles": [
+        "Carbon_2017; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2017/SR.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 67826750,
+      "sha256": "aaaba5733aeccc13b3c050df4fd48055e8e1c17ebdc58a76af3b563ec83ec046",
+      "roles": [
+        "SR_2017; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2017/WY.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 84890134,
+      "sha256": "6a72dc4edec447e8be2aa11ef339952769647ed094944e9a74bdd8e48ba6f1a5",
+      "roles": [
+        "WY_2017; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2017/FP.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 98789571,
+      "sha256": "2b284b3b1b70f86b9b86b1d764bf0b9f533442c1dca27ffc7f25e34bb104ee98",
+      "roles": [
+        "FP_2017; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2017_strict_1km.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 60820428,
+      "sha256": "a8902603552aa8c11c07d1dd2fbb06ec104b420451d96fb79668c6965cfd0138",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2017.tif",
+      "bundle": "annual_2017.zip",
+      "bytes": 902902,
+      "sha256": "71c36ea184fb4e3d2396b9ca72fc48b5f89b9a84648b11f3cedb6f5e13d74bc2",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2018_n10g4.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 226390921,
+      "sha256": "714da1fee412d78442c7ed10e3f6770a1e5bc2f504ce0da8d8fc7605a9ebffa6",
+      "roles": [
+        "EHI_2018; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2018/EV.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 62019415,
+      "sha256": "e2589ea0718cb74f22f39bed6e77c49ce970f8d061e105e12251de62eb4c7308",
+      "roles": [
+        "EV_2018; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2018/EO.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 13891795,
+      "sha256": "03b8b2531fafc1460c881adc792701057898713dc97a334ccc1c569aa2fb4f61",
+      "roles": [
+        "EO_2018; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2018/HQ.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 19947631,
+      "sha256": "03112022956fce126e0adf006daaaac2178c7dd2a1978168536ac48a42ed4b09",
+      "roles": [
+        "HQ_2018; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2018/Carbon.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 63567627,
+      "sha256": "2fca4459b187a12af4eaaa225d44099b6b2e03cb67fe3b4aee8013afb396f46f",
+      "roles": [
+        "Carbon_2018; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2018/SR.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 66564978,
+      "sha256": "2bd860c20a3b5c6044b8a38fe96af5fb1e232e9ca76c2f79389ffe04a531fafd",
+      "roles": [
+        "SR_2018; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2018/WY.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 84931076,
+      "sha256": "10b91d758b6d8dc7aa6abadc587fe0a99643feace464522a493ff398c61aab46",
+      "roles": [
+        "WY_2018; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2018/FP.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 98655043,
+      "sha256": "87a77da3205ae2eb261b4f4948dfd0c85de1dd3594b360428d4cecee86e7773b",
+      "roles": [
+        "FP_2018; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2018_strict_1km.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 60753202,
+      "sha256": "9d42df088e88dcb8dfeabffb576a9681477f93b64938de6810fdf97bce744eef",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2018.tif",
+      "bundle": "annual_2018.zip",
+      "bytes": 901676,
+      "sha256": "99e39f998f0afe8b606a0e034f2fbd194ae2f0ca22228db249ef86d1059b9375",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2019_n10g4.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 227074233,
+      "sha256": "025cc892369730bd7c4ad237ffb3ff544802805a5778c4e482d06115b370c37c",
+      "roles": [
+        "EHI_2019; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2019/EV.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 62033961,
+      "sha256": "a862ffa9dadb0dcb43957d31bd8567310bc0be481eed4a8f5a0012dadc8c48c3",
+      "roles": [
+        "EV_2019; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2019/EO.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 13883805,
+      "sha256": "9a5e2441582cbb4fd1f785c15e2a92b681752cf9c07ca89b9c10f9f18d3b8fe5",
+      "roles": [
+        "EO_2019; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2019/HQ.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 20021151,
+      "sha256": "ad59b0807f60199551deb22c5a7007f0210f9ae4f5eb1fdecd5a9923ea7f8f55",
+      "roles": [
+        "HQ_2019; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2019/Carbon.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 63558109,
+      "sha256": "f231b0dff65d70199b96e6d832f6245f34ebab4beb69b73297e4f5d9f9fac668",
+      "roles": [
+        "Carbon_2019; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2019/SR.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 66774408,
+      "sha256": "f330d34b06480c63848f77357eacf78ff85b9766b082339246db644629c868b6",
+      "roles": [
+        "SR_2019; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2019/WY.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 84903720,
+      "sha256": "ae0156d6ab42684a96c84996a3adb602dc5dcf6bc9d13268978dd517ad960467",
+      "roles": [
+        "WY_2019; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2019/FP.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 98550957,
+      "sha256": "81741aad16a9cb26e1a14cb9780954b8b80dc2399f1a41ca2534fcbde6fb5aa6",
+      "roles": [
+        "FP_2019; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2019_strict_1km.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 60950778,
+      "sha256": "e97047df6e83f23072d1223ecdce5ce14b5901e33a00106759b2dab712f17e4a",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2019.tif",
+      "bundle": "annual_2019.zip",
+      "bytes": 901482,
+      "sha256": "ce156afe34136c4da86af25a5e5b8301c07a612141c4772384efb89526ebbb45",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2020_n10g4.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 223403387,
+      "sha256": "64dd200527442c99797c257b2e09d021ecdf31a2b4baa57b3740c7383a8efd2c",
+      "roles": [
+        "EHI_2020; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2020/EV.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 63519915,
+      "sha256": "14374b177e573cd86d45409f4a8310793d99971e9586e6b4d71d38c8e08084e5",
+      "roles": [
+        "EV_2020; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2020/EO.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 10281027,
+      "sha256": "5978aaf98b798b91af270070fa2b90d8be3da464b9b1c3906b842a3557124f08",
+      "roles": [
+        "EO_2020; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2020/HQ.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 12582409,
+      "sha256": "821b47a8323b22b421c0d5f50def7e9a4bbf7355eb642bf92e7a25928d3bbd4d",
+      "roles": [
+        "HQ_2020; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2020/Carbon.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 64689350,
+      "sha256": "3296f33e0601b0a227739845869a66558789f6fd7b9994c160af1ff5935c09bc",
+      "roles": [
+        "Carbon_2020; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2020/SR.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 85275330,
+      "sha256": "d23b947e00a9c25d496e34beefa144df5885de7478f4f53af983a10997a3e36d",
+      "roles": [
+        "SR_2020; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2020/WY.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 84155880,
+      "sha256": "86df0f848d8ba2eb620f879af7e475b69c45fcc1251e6d46680a38cba62d7aac",
+      "roles": [
+        "WY_2020; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2020/FP.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 98888659,
+      "sha256": "ab842ada0b28033323cc56f354602f0ed272118c0f138717bcfe1feb7ad1f48c",
+      "roles": [
+        "FP_2020; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2020_strict_1km.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 61027790,
+      "sha256": "a8cf56fd9dcd1b6459d5f65f725069c85f0da310e68fdaddbfa20fa6f8a25769",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2020.tif",
+      "bundle": "annual_2020.zip",
+      "bytes": 901678,
+      "sha256": "beabcc149e4c542e50f0d7633fafbf606d62fe91aceaab1fc9ee5597de7ca94e",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2021_n10g4.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 231630299,
+      "sha256": "5605ef44e9f474f31ec0d93fd0246f1c8aa5c708fc2b28a9c64bcf7edf9ddecb",
+      "roles": [
+        "EHI_2021; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2021/EV.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 63348889,
+      "sha256": "84d3598d93255f37449ca04f2d24f6f849b03ea0073005fe58ff79a3dadc4317",
+      "roles": [
+        "EV_2021; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2021/EO.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 13889771,
+      "sha256": "457f5634239c47c5e5ac552f1cf4fa3fe78e638f529f99165e11834d1e34e041",
+      "roles": [
+        "EO_2021; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2021/HQ.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 20114955,
+      "sha256": "27c277ab4468e56c00e5e102a3de9a0d69f19544f2e8bd68c18cb175007c0267",
+      "roles": [
+        "HQ_2021; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2021/Carbon.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 63555393,
+      "sha256": "3eacfe44773e667879a6823f9b1f89cc5060d9baae73c8f7688f5ee7d46a450e",
+      "roles": [
+        "Carbon_2021; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2021/SR.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 68287050,
+      "sha256": "5bbf79713877e8cd5dc8015c7b7bde17fe33555db7d458fab75d1440ab846966",
+      "roles": [
+        "SR_2021; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2021/WY.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 84593562,
+      "sha256": "e901b41364e56a9cdfbcf0e00d4b843127de16fb7f91ee3c176f18042126718b",
+      "roles": [
+        "WY_2021; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2021/FP.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 99071787,
+      "sha256": "9532ed0e127669095168913c24d36919f3e8826897524102bf2eae3b73189f0f",
+      "roles": [
+        "FP_2021; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2021_strict_1km.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 60803832,
+      "sha256": "da78726d8c0b7830a33b1c6b2b10bbc2ddc652b46bd6164c76c15990fb2fb41c",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2021.tif",
+      "bundle": "annual_2021.zip",
+      "bytes": 901372,
+      "sha256": "674f5a784fd32e2133ce2852de9ec1edcc8a074ea3bafda8e185b9ecc9df4261",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2022_n10g4.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 235913205,
+      "sha256": "ec95d67cf111de882f122b77a55486b74ed473ac7e8eca4483c285b594091478",
+      "roles": [
+        "EHI_2022; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2022/EV.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 63667833,
+      "sha256": "85e169cf3d43099090a31a1e6b691c52010bfccf2ab8c00597eb5f359c0621d6",
+      "roles": [
+        "EV_2022; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2022/EO.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 13890691,
+      "sha256": "a2e729f19eb547a5e581717ad079430092f7343d0fd41d11eb04b7da6bf4c2c7",
+      "roles": [
+        "EO_2022; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2022/HQ.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 20225685,
+      "sha256": "4b5f30c3d3cef6db8d69a885b33dd977995ce772e9dadd8c6799c44065381dad",
+      "roles": [
+        "HQ_2022; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2022/Carbon.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 63564017,
+      "sha256": "2206933a63672399d0c1981e552061dd38e45ff213d52633ca4195bb3d1e0442",
+      "roles": [
+        "Carbon_2022; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2022/SR.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 68935152,
+      "sha256": "878cd50deb2eec49cae70cd1664ee0cd6a595870b90e5008e33c17d0be337741",
+      "roles": [
+        "SR_2022; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2022/WY.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 84459212,
+      "sha256": "589a4f2cd1a57104265bf43816dd13203f98aa6ecaaf7cdf99462024119e53b7",
+      "roles": [
+        "WY_2022; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2022/FP.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 99156863,
+      "sha256": "0667c83473b813644920c8e5d3f82935270f0244a2572787cb0b90fa0ed03b58",
+      "roles": [
+        "FP_2022; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2022_strict_1km.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 60867374,
+      "sha256": "d0fb94c372db4de7bf4e84ab3f3336a3e0206b032e21aee543bb756aeca5c819",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2022.tif",
+      "bundle": "annual_2022.zip",
+      "bytes": 901566,
+      "sha256": "7eda7a22a75e41da4fcb76d8a0305b37057ae24131920ad9de949d0845a7a2aa",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2023_n10g4.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 230721097,
+      "sha256": "f2a8186c10b85e1f5e512e9e905b0029135e7226cc64bebfa091b98eb571ff0e",
+      "roles": [
+        "EHI_2023; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2023/EV.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 63418579,
+      "sha256": "33490bd7829c70c19ed2f287c5c69ff87db07dbf739f8fbe8f78259ddcd0f5fc",
+      "roles": [
+        "EV_2023; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2023/EO.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 13908667,
+      "sha256": "fc5d6ae1c04aee5b20474e3cf2fa869758a99feb36efc79d488d299b9ecde1a9",
+      "roles": [
+        "EO_2023; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2023/HQ.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 20310419,
+      "sha256": "c93a2dcaad16efaa55b75d3354b476aec9c96b25f0fa541b194d625a434f2744",
+      "roles": [
+        "HQ_2023; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2023/Carbon.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 63568569,
+      "sha256": "ced75d1b303ccbc42b462a6f221a53f31a39d2544fc6bf23054141bd2c419b87",
+      "roles": [
+        "Carbon_2023; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2023/SR.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 67832574,
+      "sha256": "4986aaa00e58af5776d620632c81ba7a280a3a2b0181ad6be3da25613dae60ba",
+      "roles": [
+        "SR_2023; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2023/WY.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 84869124,
+      "sha256": "7cad7bdf2c848af94ec90a0073881a0bbc66f18c9b2633a37ba587a5a2115960",
+      "roles": [
+        "WY_2023; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2023/FP.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 99038969,
+      "sha256": "d2c4dd635f7252705cad0e240cb5c82c51e24bb10312b681dcf1ba56e476cde4",
+      "roles": [
+        "FP_2023; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2023_strict_1km.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 60942628,
+      "sha256": "82e5e1d4b7bc4811f900ffe538172937534a84f6562e7092f1eee2e7bda0f051",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2023.tif",
+      "bundle": "annual_2023.zip",
+      "bytes": 902987,
+      "sha256": "4c34c8f1a58f5edfd5d36db7c77257a8bc59e034da36532f03926ba16f8bdda8",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2024_n10g4.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 227146107,
+      "sha256": "3dbdf91283c32f0e0cd7ae1678234ceec67af601d75211035a4630acf82d53bf",
+      "roles": [
+        "EHI_2024; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2024/EV.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 63193121,
+      "sha256": "edb9f0a3bf54b9853624b4ad0884a67545e3d534a3eb486e530dbfc2b70ecb93",
+      "roles": [
+        "EV_2024; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2024/EO.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 13967065,
+      "sha256": "866c8e9a5b70f80f7d5f3db5953459be1b5954ee3ce32613db7093d8d2c8c55c",
+      "roles": [
+        "EO_2024; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2024/HQ.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 20451227,
+      "sha256": "7e525ac275d4365eaa1a52daedf25ede60e4dacc8cd144abe55e7cf565efdf82",
+      "roles": [
+        "HQ_2024; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2024/Carbon.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 63600001,
+      "sha256": "aab28c0e61e07da9cee8a482616b69368a1388845fb2781a7e42cb3d2d202803",
+      "roles": [
+        "Carbon_2024; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2024/SR.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 66896064,
+      "sha256": "f544b082ceff02d426ad5e40b91ac98a982c581f5cc62cf853d2c05975e4cf01",
+      "roles": [
+        "SR_2024; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2024/WY.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 85337962,
+      "sha256": "15f32765044cfb7cd174c16fa08bc9adceab971c6eaf8d7e9efa7371203f1072",
+      "roles": [
+        "WY_2024; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2024/FP.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 99131963,
+      "sha256": "ec327055a87f89586894ff1a4318b49420db65cd6bc2854df0b9d59f5167b9ce",
+      "roles": [
+        "FP_2024; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2024_strict_1km.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 60917874,
+      "sha256": "7621dc807c90010e9befcebd152358146686ec5ae66de8da24ecbda7a569edd5",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2024.tif",
+      "bundle": "annual_2024.zip",
+      "bytes": 907772,
+      "sha256": "17be6ef4ee831e68d7506b8341474c0fed239982679fe33833e888e1b40c31c3",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/EHI_2025_n10g4.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 235790483,
+      "sha256": "71ca70abaac60b9e1b71d17a841312af05b9b802e909e7e0081a76eb84b4fcee",
+      "roles": [
+        "EHI_2025; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2025/EV.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 64731637,
+      "sha256": "681db28ec27d65a3dff6f4f7c95ce0caca03d27f75581f262423742fc4a67416",
+      "roles": [
+        "EV_2025; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2025/EO.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 10410151,
+      "sha256": "adb2cf6fffea6da3a4c4069e5ebe8e138d9c268a66b0d30761bac4e23463f9c4",
+      "roles": [
+        "EO_2025; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2025/HQ.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 12930607,
+      "sha256": "a10d4e5647f63bc9b73e7d573d1e1a188f4d6accd84ae029d62a8e81ca96fda8",
+      "roles": [
+        "HQ_2025; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2025/Carbon.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 64682670,
+      "sha256": "c8349b47dd0d4b738a6db53fb0ac2f9704b3e8fc555554efe2d5ce7a38b33269",
+      "roles": [
+        "Carbon_2025; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2025/SR.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 89408486,
+      "sha256": "0cea97dc9adfecd49093d9bf892a98b67d809c4d564a8f3a71bcf6dcb52e7de7",
+      "roles": [
+        "SR_2025; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2025/WY.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 84952916,
+      "sha256": "d93e99576d7e7de399f99826f1b86664475b1b4f2dce300d6c1e081360c494da",
+      "roles": [
+        "WY_2025; band 1"
+      ]
+    },
+    {
+      "path": "data/components/2025/FP.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 100001507,
+      "sha256": "5472ed291d432ea36d5f0d6d94923cd39f1cb0616e64a8c9c3d7dbdf37e1e4e7",
+      "roles": [
+        "FP_2025; band 2 / 100"
+      ]
+    },
+    {
+      "path": "data/annual_climate_1km/POWER_2025_strict_1km.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 60752200,
+      "sha256": "1a0a9b77efae485de6a33b80d141bb6d1b55ad341892102fff54824a0e6cb81c",
+      "roles": [
+        "P band 1; ET0 band 2"
+      ]
+    },
+    {
+      "path": "data/landcover/LC_2025.tif",
+      "bundle": "annual_2025.zip",
+      "bytes": 911574,
+      "sha256": "d2a0c4a3b3b7def47582ba7469fb91e451f7358228c09ca4c91387d43ba44feb",
+      "roles": [
+        "CLCD land-class input"
+      ]
+    },
+    {
+      "path": "data/annual_ehi/complete_series_domains.tif",
+      "bundle": "static_masks_boundaries.zip",
+      "bytes": 1324894,
+      "sha256": "8be58d7fb11650710925318b5e8f25ca916747bdf3b9e97aa0f87e833e76e6b9",
+      "roles": [
+        "Original complete-series domains; primary band 1"
+      ]
+    },
+    {
+      "path": "data/static/soil_national_1km.tif",
+      "bundle": "static_masks_boundaries.zip",
+      "bytes": 425911691,
+      "sha256": "19b528219b31e58f8a8faa8105512de40dbc54c412fea86e4bef7e2737d0fe79",
+      "roles": [
+        "static k; band 5",
+        "static bed; band 6",
+        "static pa; band 7",
+        "static pawet; band 8"
+      ]
+    },
+    {
+      "path": "data/static/terrain_national_1km.tif",
+      "bundle": "static_masks_boundaries.zip",
+      "bytes": 240308214,
+      "sha256": "7c87d9600cdbd2a43e53daafae889698c67fb7dbf7be3fea6e9401d3282abb07",
+      "roles": [
+        "static ls; band 4"
+      ]
+    },
+    {
+      "path": "data/static/Rref_national_1km.tif",
+      "bundle": "static_masks_boundaries.zip",
+      "bytes": 72226678,
+      "sha256": "5a21ba836b4102dec09c81069bfdb5f6c4533b38f5dd6e22f4d79886f941a96a",
+      "roles": [
+        "static r; band 1"
+      ]
+    },
+    {
+      "path": "data/masks/main_domain.tif",
+      "bundle": "static_masks_boundaries.zip",
+      "bytes": 442682,
+      "sha256": "08d6e508781eb9013dd2e409cddb82a88e6f8280b8b5dab5c1dab77de93f312d",
+      "roles": [
+        "main_domain"
+      ]
+    },
+    {
+      "path": "data/masks/reference_domain.tif",
+      "bundle": "static_masks_boundaries.zip",
+      "bytes": 82209,
+      "sha256": "75c2b1b3c77bea133cb6b2653b2761a2a031e25745e9c7e1fa297352c3fe2abc",
+      "roles": [
+        "reference_domain"
+      ]
+    },
+    {
+      "path": "data/boundaries/county_2017.geojson",
+      "bundle": "static_masks_boundaries.zip",
+      "bytes": 88780624,
+      "sha256": "3cc71d6cd23e7dbb5646422b40dd92a7a74d8779f340eb9377158c961dec310e",
+      "roles": [
+        "County reporting units; ODbL 1.0; not official administrative boundaries"
+      ]
+    }
+  ],
+  "excluded_sources": [
+    {
+      "name": "GADM province vector and administrative ID raster",
+      "reason": "Redistribution requires prior permission",
+      "url": "https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_CHN_1.json.zip",
+      "license": "https://gadm.org/license.html"
+    }
+  ]
+}

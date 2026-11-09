@@ -1,0 +1,18 @@
+{
+  "task": "task5",
+  "seconds": 45.0,
+  "status": "complete with undefined variance cells reported",
+  "cells": 4072765,
+  "invalid_test_cells": 48375,
+  "validation_max_p_difference": 2.220446049250313e-16,
+  "validation_sample": 100,
+  "pymannkendall_version": "1.4.3",
+  "lags": "all 1\u201325",
+  "regional_p": 1.973612098193911e-07,
+  "BH_cutoff": 0.03205970117406304,
+  "significant_zero_Sen_cells": 1,
+  "classification": "MK score direction; zero-Sen significant ties explicitly retained",
+  "significance_display": "20 km block majority; all pixel tests retained",
+  "font_only_redraw_seconds": 12.531000000002678,
+  "font_repair": "Replaced unsupported Unicode superscript minus with matplotlib mathematical typesetting; statistics unchanged"
+}

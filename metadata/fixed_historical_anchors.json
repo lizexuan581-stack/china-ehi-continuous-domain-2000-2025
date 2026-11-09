@@ -1,0 +1,36 @@
+{
+  "anchors": {
+    "EV": {
+      "low": -0.14148017764091492,
+      "high": 0.895159900188446,
+      "reference_valid_cells": 33384152
+    },
+    "Carbon": {
+      "low": 0.0,
+      "high": 535.8599853515625,
+      "reference_valid_cells": 46743617
+    },
+    "SR": {
+      "low": 0.0,
+      "high": 13344.0146484375,
+      "reference_valid_cells": 36356730
+    },
+    "WY": {
+      "low": 0.0,
+      "high": 3276.64599609375,
+      "reference_valid_cells": 46469614
+    },
+    "FP": {
+      "low": 0.0,
+      "high": 41.147890625,
+      "reference_valid_cells": 46895030
+    }
+  },
+  "reference_years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "task": "task3",
+  "seconds": 270.18700000000536,
+  "status": "complete",
+  "cells": 4072765,
+  "invalid_cells": 0,
+  "FP_reference_low": 0.0,
+  "FP_reference_high": 4.0286026794433605,
+  "reference_values": 46895030,
+  "reference_support": "Original per-component finite support within province and valid 2020 land mask; not restricted to 26-year main domain"
+}

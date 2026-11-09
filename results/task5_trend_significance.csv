@@ -1,0 +1,6 @@
+﻿record,category,cells,denominator,share_pct,FDR_q,BH_p_cutoff,period,p,Sen_slope,MK_S,adjusted_variance
+pixel_category,significant_increase,2531915,4072765,62.17,0.05,0.03206,,,,,
+pixel_category,significant_decrease,79688,4072765,1.957,0.05,0.03206,,,,,
+pixel_category,not_significant,1412787,4072765,34.69,0.05,0.03206,,,,,
+pixel_category,undefined_adjusted_variance,48375,4072765,1.188,0.05,0.03206,,,,,
+regional_test,,4072765,,,,,2000–2025,1.974e-07,0.0002511,237,2058
