@@ -39,6 +39,9 @@ def match(f,e):
 
 remote=files()
 assert not set(remote)-set(EXPECTED)
+buckets={f['bucket_id'] for f in remote.values()}
+assert len(buckets)==1
+BUCKET='https://zenodo.org/api/files/'+buckets.pop()
 for name,f in remote.items():
     if f['status']=='completed':
         assert match(f,EXPECTED[name]),name
@@ -75,9 +78,9 @@ def transfer_one(item):
                 time.sleep(10*(attempt+1))
         assert size==e['bytes'] and md5.hexdigest()==e['md5'] and sha256.hexdigest()==e['sha256'],name
         print('Downloaded and verified:',name,flush=True)
-        api('POST',BASE,[{'key':name}])
-        entry=files()[name]
-        url=entry['links']['content'];assert url.startswith(BASE+'/')
+        # Official Zenodo large-file bucket API initializes and commits the
+        # draft entry itself. A small checksum-file probe verified this route.
+        url=BUCKET+'/'+name
         parsed=urlparse(url)
         connection=http.client.HTTPSConnection(parsed.hostname,timeout=600)
         try:
@@ -96,8 +99,9 @@ def transfer_one(item):
                         print('Upload progress:',name,transferred,'of',size,flush=True)
             response=connection.getresponse();body=response.read()
             assert 200<=response.status<300,(name,response.status)
+            uploaded=json.loads(body)
+            assert uploaded['size']==e['bytes'] and uploaded['checksum'].removeprefix('md5:').zfill(32)==e['md5'].zfill(32),name
         finally:connection.close()
-        api('POST',entry['links']['commit'])
         assert match(files()[name],e),name
         print('Uploaded and verified:',name,'seconds:',round(time.monotonic()-begin,1),flush=True)
 
