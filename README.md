@@ -50,4 +50,4 @@ Primary source links:
 - Hamed–Rao: https://doi.org/10.1016/S0022-1694(97)00125-X ; pyMannKendall: https://doi.org/10.21105/joss.01556
 - Aridity categories: https://www.ipcc.ch/report/ar6/wg2/figures/chapter-ccp3/figure-ccp3-001/
 
-A Zenodo DOI for **this** dataset must be added only after a verified deposit. The earlier Qinghai-only record is a different study and is not this dataset's identifier.
+The complete historical data and accompanying code/results are archived on Zenodo: **[10.5281/zenodo.24073205](https://doi.org/10.5281/zenodo.24073205)**. All 29 archival files were checked against local checksums before publication. The GitHub release contains 27 data archives and their SHA-256 list; Zenodo additionally contains the code/results ZIP. Third-party licence exclusions described above apply to both copies. The earlier Qinghai-only record is a different study.

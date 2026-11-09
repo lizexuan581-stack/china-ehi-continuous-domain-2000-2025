@@ -1,0 +1,9 @@
+{
+  "doi": "10.5281/zenodo.24073205",
+  "zenodo_url": "https://zenodo.org/records/24073205",
+  "github_release": "https://github.com/lizexuan581-stack/china-ehi-continuous-domain-2000-2025/releases/tag/v1.0.0",
+  "data_release_commit": "4a4a9d48f9cfe5fa2872822d365a9fc11fcb47a2",
+  "zenodo_files_verified": 29,
+  "github_assets_verified": 28,
+  "licences": "Author-created data/results CC BY 4.0; author-created code MIT; third-party source licences retained."
+}
