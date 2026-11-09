@@ -12,6 +12,7 @@ from pathlib import Path
 import tempfile
 import time
 import urllib.request
+import urllib.error
 from urllib.parse import urlparse
 
 BASE='https://zenodo.org/api/records/24073205/draft/files'
@@ -57,10 +58,19 @@ for name,e in EXPECTED.items():
     begin=time.monotonic()
     with tempfile.TemporaryDirectory() as tmp:
         path=Path(tmp)/name
-        md5=hashlib.md5();sha256=hashlib.sha256();size=0
-        with urllib.request.urlopen(e['source_url'],timeout=180) as response,path.open('wb') as out:
-            while chunk:=response.read(1024*1024):
-                out.write(chunk);md5.update(chunk);sha256.update(chunk);size+=len(chunk)
+        for attempt in range(5):
+            md5=hashlib.md5();sha256=hashlib.sha256();size=0
+            try:
+                request=urllib.request.Request(e['source_url'],headers={'User-Agent':'ChinaEHI-ArchivalTransfer/1.0'})
+                with urllib.request.urlopen(request,timeout=180) as response,path.open('wb') as out:
+                    while chunk:=response.read(1024*1024):
+                        out.write(chunk);md5.update(chunk);sha256.update(chunk);size+=len(chunk)
+                break
+            except (urllib.error.URLError,TimeoutError) as exc:
+                if isinstance(exc,urllib.error.HTTPError) and exc.code not in [429,500,502,503,504]:raise
+                if attempt==4:raise
+                print('Retrying public download:',name,'attempt:',attempt+2,flush=True)
+                time.sleep(10*(attempt+1))
         assert size==e['bytes'] and md5.hexdigest()==e['md5'] and sha256.hexdigest()==e['sha256'],name
         print('Downloaded and verified:',name,flush=True)
         api('POST',BASE,[{'key':name}])
