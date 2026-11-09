@@ -1,0 +1,26 @@
+name: Complete verified Zenodo archive
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: zenodo-24073205-upload
+  cancel-in-progress: false
+jobs:
+  transfer:
+    if: github.actor == 'lizexuan581-stack' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - name: Download this workflow's source revision
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          git init source
+          git -C source remote add origin https://github.com/lizexuan581-stack/china-ehi-continuous-domain-2000-2025.git
+          git -C source fetch --depth=1 origin "$SOURCE_SHA"
+          git -C source checkout --detach FETCH_HEAD
+      - name: Transfer and verify public release files
+        env:
+          ZENODO_UPLOAD_TOKEN: ${{ secrets.ZENODO_UPLOAD_20261109 }}
+        run: python3 source/maintenance/zenodo_transfer.py
